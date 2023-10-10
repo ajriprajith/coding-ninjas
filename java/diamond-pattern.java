@@ -16,9 +16,7 @@ class DiamondPattern {
             for (int j = 1; j <= stars; j++) {
                 System.out.print("*");
             }
-
             System.out.println();
-
             if (i <= rows / 2) {
                 spaces--;
                 stars += 2;
