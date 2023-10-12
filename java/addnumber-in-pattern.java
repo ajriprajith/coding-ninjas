@@ -3,7 +3,7 @@ class addnumber {
     public static void main(String[] args){
         
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt(), i = 1, sum=1;
+        int n = scanner.nextInt(), i = 1, sum=0;
         while(i<=n){
             int j=1;
             while(j<=i){
